@@ -1,0 +1,93 @@
+body{
+    /*значения по дефолту для всей страницы*/
+    background-color: #EFEFF2;
+    margin: 0;
+    color: #19191c;
+    font: 400 18px/28px Inter, sans-serif;
+}
+
+.container{
+    width: 1448px;
+    margin: 0 auto;
+}
+
+/*Настройки для header*/
+.header{
+    display: flex;
+    padding: 36px 0 0;/*внутрений оцтуп*/
+    justify-content: space-between;/*выравнивание по все шерене блока*/
+}
+
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;/*отключаем точки в списке*/
+    gap: 48px;/*оцтупы между элементами*/
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;/*жирность шрифта*/
+}
+
+.link{
+    color: #19191c;
+    text-decoration: none;
+}
+
+.btn-box{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;/*выравниваем эл. ты поцентрам*/
+    gap: 14px;
+    color: #19191c;/*цвет текста*/
+    text-decoration: none;/*отключаем подчеркивание текста*/
+}
+
+.header__link{
+    color: #19191c;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header__btn{
+    background-color: #19191c;/*фон кнопки (блока)*/
+    color: #EFEFF2;
+    padding: 12px 37px;/*внутрение отступы в блоке*/
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+/*Настройки для offer*/
+.offer{
+    display: flex;
+    justify-content: space-between;/*такой тип, что бы блоки прежимались к кроям*/
+}
+
+.offer__holder{
+    width: 648px;/*задаем ширину блока*/
+}
+
+/*большой заголовок, передним должен идти маленький зоголовок*/
+.offer__title{
+    font-size: 58px;
+    line-height: 78px;
+    font-weight: 700;
+}
