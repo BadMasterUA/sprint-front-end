@@ -79,15 +79,125 @@ body{
 .offer{
     display: flex;
     justify-content: space-between;/*такой тип, что бы блоки прежимались к кроям*/
+    align-items: flex-start;
+    background: url(../img/gitl.png) 100% 100% no-repeat;
+    /*background: url(../img/Rectangle_107.png) 100% 100% no-repeat;*/
+    margin-top: 168px;
 }
 
 .offer__holder{
     width: 648px;/*задаем ширину блока*/
+    background: url(../img/Ellipse_20.png) 100% 100% no-repeat;
 }
 
-/*большой заголовок, передним должен идти маленький зоголовок*/
+.pre_offer__title{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #504DEE;/*цвет линии подчеркивания*/
+    text-decoration-thickness: 4px;/*толшина линии подчеркивания*/
+    text-underline-offset: 8px;/*отступ от текста до линии подчеркивания*/
+    margin: 0 0 40px 0;
+}
+
 .offer__title{
     font-size: 58px;
     line-height: 78px;
     font-weight: 700;
+    margin-top: 2px;
+    padding: 0;
+}
+
+.offers_small-title{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.offer__description{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    width: 648px;
+    margin-top: 48px;
+}
+
+/*кнопка*/
+.button{
+    width: 141px;
+    height: 54px;
+    padding: 16px 37px 16px 37px;
+    background-color: #504DEE;/**цвет фона в кнопке*/
+    width: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBFBFC;/*цвет текста в кнопке*/
+    border: none; /*убераем тень у кнопки*/
+    margin-top: 50px;
+}
+
+.offer__sale{
+    font-size: 58px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-top: 110px;
+    margin-bottom: 0;
+}
+
+.offer__time{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+/*список*/
+.offer__list{
+    /*align-self: flex-end;*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+.offer__item{
+    position: absolute;
+    border:  2px solid #19191c;
+    padding: 16px 36px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.offer__InVision{
+    top: 66px;
+    left: 660px;
+}
+
+.offer__ProtoPie{
+    top: 0px;
+    left: 433px;
+}
+
+.offer__Miro{
+    top: 74px;
+    left: 204px;
+}
+
+.offer__Photoshop{
+    top: 256px;
+    left: 168px;
+}
+
+.offer__Figma{
+    top: 393px;
+    left: 0px;
+}
+
+.offer__Illustrator{
+    top: 570px;
+    left: 36px;
 }
