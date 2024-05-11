@@ -80,8 +80,7 @@ body{
     display: flex;
     justify-content: space-between;/*такой тип, что бы блоки прежимались к кроям*/
     align-items: flex-start;
-    background: url(../img/gitl.png) 100% 100% no-repeat;
-    /*background: url(../img/Rectangle_107.png) 100% 100% no-repeat;*/
+    background: url(../img/gitl.png) 132% 100% no-repeat;
     margin-top: 168px;
 }
 
@@ -200,4 +199,110 @@ body{
 .offer__Illustrator{
     top: 570px;
     left: 36px;
+}
+
+/*profession container*/
+.profession{
+    /*display: flex;
+    justify-content: space-between;*/
+}
+.profession__text{
+    width: 588px;
+}
+.profession__title{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #19191C;
+    margin-top: 168px;
+}
+
+.profession__description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6D77;
+}
+
+/**/
+.profession__counters-number{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #19191C;
+}
+
+.profession__counters-descript1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #19191C;
+}
+
+.rofession__counters-lines{
+    height: 4px;
+    background-color: #19191C;
+}
+
+.profession__counters-descript2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6D77;
+    margin-top: 18px;
+}
+
+.box_text1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_text2{
+    width: 354px;
+}
+
+.box_text3{
+    width: 254px;
+}
+
+/*profession__cards*/
+.profession__cards-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.profession__cards-title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #19191C;
+}
+
+.profession__cards-descript{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #19191C;
+}
+
+/*profession__cards-item*/
+.green_card{
+    width: 467px;
+    height: 329px;
+    background-color: #DEEFE4;
+    padding: 48px 68px;
+}
+
+.ellow_card{
+    width: 467px;
+    height: 329px;
+    background-color: #F3F3D7;
+    padding: 48px 68px;
+}
+
+.pink_card{
+    width: 467px;
+    height: 329px;
+    background-color: #EFDEEE;
+    padding: 48px 68px;
 }
