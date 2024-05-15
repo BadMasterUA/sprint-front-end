@@ -408,52 +408,66 @@ body{
     background-color: #19191C;
 }
 
-.footer_cont{
+.footer_pak{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between
 }
 
 .footer_logo{
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 22px;
-    display: flex;
-    align-items: center;/*выравниваем эл. ты поцентрам*/
-    margin-top: 48px;
-    color: #FBFBFC;/*цвет текста*/
-    text-decoration: none;/*отключаем подчеркивание текста*/
+    margin-top: 59px;
 }
 
-.f_logo-text{
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29px;
+.footer_logo-text{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 22px;
     color: #FBFBFC;
     text-decoration: none;
-    margin-top: 48px;
+}
+
+.contact_text{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FBFBFC;
+    text-decoration: none;
     margin-bottom: 28px;
 }
 
-.sitemap__title{
+.ul_footer{
+    margin-top: 68px;
+}
+
+.footer_ul-title{
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     color: #FBFBFC;
+    list-style-type: none;
+    margin-bottom: 28px;
 }
 
-.sitemap__list{
+.footer_li{
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    color: #EFEFF2;
+    color: #FBFBFC;
+    list-style-type: none;
     text-decoration: none;
-    list-style: none;
-    gap: 12px;
 }
 
-.copyright{
+.policy_privacy{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
+}
+
+.policy_privacy-text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6D6D77;
+    text-decoration: none;
     margin-bottom: 62px;
+    margin-right: 28px;
 }
