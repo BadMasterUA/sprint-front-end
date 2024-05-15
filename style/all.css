@@ -202,9 +202,16 @@ body{
 }
 
 /*profession container*/
-.profession__text{
+.profession{
+    margin-top: 169px;
+}
+.profession__counters{
     display: flex;
     justify-content: space-between;
+}
+.profession__text{
+    display: flex;
+    /*justify-content: space-between;*/
 }
 
 .profession__title{
@@ -260,10 +267,12 @@ body{
 
 .box_text2{
     width: 354px;
+    margin-left: 141px;
 }
 
 .box_text3{
     width: 254px;
+    margin-left: 103px;
 }
 
 /*profession__cards*/
@@ -391,7 +400,7 @@ body{
     font-size: 24px;
     font-weight: 700;
     line-height: 26px;
-    color: #6D6D77;
+    color: #FBFBFC;
     margin-top: 164px;
 }
 
