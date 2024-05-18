@@ -122,6 +122,7 @@ body{
     width: 648px;
     margin-top: 48px;
 }
+/*offer mobile*/
 
 /*кнопка*/
 .button{
@@ -212,6 +213,46 @@ body{
 .profession__text{
     display: flex;
     /*justify-content: space-between;*/
+}
+
+/*profession__text mobile*/
+@media screen and (max-width: 1439px) {
+    .profession__text{
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+    }
+
+    .mobile_text{
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+    }
+
+    .profession__title{
+        width: 400px;
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 70px;
+        color: #19191C;
+        margin-top: 168px;
+    }
+
+    .profession__description{
+        width: 400px;
+    }
+
+    .profession__counters{
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+    }
+
+    .box_text2{
+        margin-left: px;
+    }
+
+    .box_text3{
+        margin-left: 0px;
+    }
+
 }
 
 .profession__title{
@@ -318,6 +359,15 @@ body{
     padding: 48px 68px;
 }
 
+/*profession mobile*/
+@media screen and (max-width:1439px) {
+    .profession__cards-item{
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
+
 /*discover*/
 .discover__title{
     font-size: 58px;
@@ -411,6 +461,14 @@ body{
     color: #FBFBFC;
     margin-top: 3px;
 }
+/*discover mobile*/
+@media screen and (max-width:1439px) {
+    .discover__cards{
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}
 
 /*footer*/
 .footer{
@@ -479,4 +537,18 @@ body{
     text-decoration: none;
     margin-bottom: 62px;
     margin-right: 28px;
+}
+
+/*Footer mobile*/
+@media screen and (max-width: 1439px) {
+
+    .container{
+        width: 430px;
+        margin: 0 auto;
+    }
+
+    .footer_pak{
+        flex: 1 1 100%;
+        flex-wrap: wrap;
+    }
 }
